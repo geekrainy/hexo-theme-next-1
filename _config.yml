@@ -115,6 +115,7 @@ menu:
   #tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
+  #music: /music/ || music
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -777,6 +778,10 @@ fastclick: false
 # Dependencies: https://github.com/theme-next/theme-next-jquery-lazyload
 lazyload: false
 
+# Added APlayer support
+# Dependencies: https://github.com/MoePlayer/APlayer
+APlayer: false
+
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
 pace: false
@@ -928,6 +933,10 @@ vendors:
   # valine comment
   # Example: https://cdn.jsdelivr.net/npm/valine@1.1.8/dist/Valine.min.js
   valine:
+
+  # Aplayer
+  # Example: https://cdn.bootcss.com/aplayer/1.6.0/APlayer.min.js
+  aplayer:
 
 
 # Assets

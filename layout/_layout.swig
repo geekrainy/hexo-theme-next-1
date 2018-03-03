@@ -94,5 +94,6 @@
   {% include '_third-party/exturl.swig' %}
   {% include '_third-party/bookmark.swig' %}
   {% include '_third-party/douban.swig' %}
+  {% include '_third-party/music.swig' %}
 </body>
 </html>
