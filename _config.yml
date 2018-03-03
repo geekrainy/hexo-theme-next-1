@@ -115,6 +115,7 @@ menu:
   #tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
+  #douban: /douban/ || star
   #music: /music/ || music
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
