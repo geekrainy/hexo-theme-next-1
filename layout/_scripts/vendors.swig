@@ -17,10 +17,9 @@
   {% set js_vendors.lazyload    = 'jquery_lazyload/jquery.lazyload.js?v=1.9.7' %}
 {% endif %}
 
-{% if theme.motion.enable %}
-  {% set js_vendors.velocity    = 'velocity/velocity.min.js?v=1.2.1' %}
-  {% set js_vendors.velocity_ui = 'velocity/velocity.ui.min.js?v=1.2.1' %}
-{% endif %}
+
+{% set js_vendors.velocity    = 'velocity/velocity.min.js?v=1.2.1' %}
+{% set js_vendors.velocity_ui = 'velocity/velocity.ui.min.js?v=1.2.1' %}
 
 {% if theme.fancybox %}
   {% set js_vendors.fancybox  = 'fancybox/source/jquery.fancybox.pack.js?v=2.1.5' %}
